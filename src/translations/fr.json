@@ -1,0 +1,32 @@
+{
+  "heading": {
+    "name": "Mohamed Kassar",
+    "occupation": "Développeur Web Full-Stack"
+  },
+  "personal-informations": {
+    "date-of-birth": {
+      "title": "Date de naissance",
+      "value": "05/07/1999"
+    },
+    "phone-number": {
+      "title": "N° tél.",
+      "value": "+33 6 16 06 31 51"
+    },
+    "email-address": {
+      "title": "Adresse e-mail",
+      "value": "mohamed.kassar36@hotmail.com"
+    }
+  },
+  "social": {
+    "github": "https://github.com/mk360",
+    "linkedin": "",
+    "codingame": ""
+  },
+  "languages": {
+    "title": "Langues parlées",
+    "french": "Français (natif)",
+    "arabic": "Arabe (natif)",
+    "english": "Anglais (quotidien, professionnel)",
+    "polish": "Polonais (débutant)"
+  }
+}
