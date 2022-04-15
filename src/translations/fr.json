@@ -28,5 +28,22 @@
     "arabic": "Arabe (natif)",
     "english": "Anglais (quotidien, professionnel)",
     "polish": "Polonais (débutant)"
+  },
+  "technical-skills": {
+    "title": "Compétences techniques",
+    "content": [
+      "Connaissance approfondie en JS natif (ES5+)",
+      "Niveau de TypeScript avancé",
+      "Maîtrise de React et Node.js",
+      "Aisance avec divers Design Patterns et Data Structures",
+      "Niveau basique en MongoDB et en Go"
+    ]
+  },
+  "soft-skills": {
+    "title": "Compétences personnelles",
+    "content": [
+      "Capable de traiter les imprévus sans assistance externe, de réfléchir \"out of the box\"",
+      "Apprécie le partage de connaissances dans les deux sens"
+    ]
   }
 }
