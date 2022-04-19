@@ -3,11 +3,8 @@
     "name": "Mohamed Kassar",
     "occupation": "Développeur Web Full-Stack"
   },
-  "personal-informations": {
-    "date-of-birth": {
-      "title": "Date de naissance",
-      "value": "05/07/1999"
-    },
+  "contact-informations": {
+    "title": "Contact",
     "phone-number": {
       "title": "N° tél.",
       "value": "+33 6 16 06 31 51"
@@ -15,6 +12,16 @@
     "email-address": {
       "title": "Adresse e-mail",
       "value": "mohamed.kassar36@hotmail.com"
+    }
+  },
+  "personal-informations": {
+    "date-of-birth": {
+      "title": "Date de naissance",
+      "value": "5 juillet 1999"
+    },
+    "nationality": {
+      "title": "Nationalités",
+      "value": "Française, Libanaise"
     }
   },
   "social": {
@@ -34,16 +41,55 @@
     "content": [
       "Connaissance approfondie en JS natif (ES5+)",
       "Niveau de TypeScript avancé",
-      "Maîtrise de React et Node.js",
+      "Maîtrise de React, de DOM API et Node.js",
       "Aisance avec divers Design Patterns et Data Structures",
-      "Niveau basique en MongoDB et en Go"
+      "Maîtrise des opérations CRUD avec MongoDB",
+      "Bases en Go"
     ]
   },
   "soft-skills": {
     "title": "Compétences personnelles",
     "content": [
       "Capable de traiter les imprévus sans assistance externe, de réfléchir \"out of the box\"",
-      "Apprécie le partage de connaissances dans les deux sens"
+      "Apprécie le partage de connaissances dans les deux sens",
+      "Proactif, source constante d'idées et d'initiatives",
+      "Peut travailler individuellement ou en équipe"
     ]
+  },
+  "hobbies": {
+    "title": "Centres d'intérêt",
+    "content": [
+      "Jeux vidéo d'infiltration, de combat, de sport, de stratégie",
+      "Suivi de NBA et de football européen, culture sportive générale",
+      "Création et composition de musique au niveau débutant",
+      "Contribution à des "
+    ]
+  },
+  "professional-experience": {
+    "title": "Exp. Professionnelle",
+    "content": [{
+      "startDate": "25 mai 2021",
+      "endDate": "",
+      "company": "Jamtech / Smood",
+      "position": "Développeur Full-Stack, Front-End",
+      "highlights": [
+        "Acquisition d'une réputation de niveau élevé en TypeScript et React dans la compagnie.",
+        "Assurance de la montée en compétences de l'équipe en TypeScript.",
+        "Responsable unique de sections entières d'applications cruciales.",
+        "Développement d'outils accélérant la création de composants UI dans une librairie interne."
+      ]
+    },
+    {
+      "startDate": "Avril 2020",
+      "endDate": "Mai 2021",
+      "company": "",
+      "position": "",
+      "content": "Interruption de travail pour des raisons de santé"
+    },
+    {
+      "startDate": "Août 2019",
+      "endDate": "Avril 2020",
+      "company": "NavyBits"
+    }]
   }
 }
