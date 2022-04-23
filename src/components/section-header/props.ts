@@ -1,6 +1,8 @@
+import Theme from "../../types/theme";
+
 interface HeaderProps {
   children: JSX.Element;
-  theme: 'primary' | 'secondary';
+  theme: Theme;
 }
 
 export default HeaderProps;
