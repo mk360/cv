@@ -43,32 +43,32 @@ const FR: TranslationFileStructure = {
   "technical-skills": {
     title: "Compétences techniques",
     content: [
-      "Connaissance approfondie en JS natif (ES5+)",
-      "Niveau de TypeScript avancé",
-      "Maîtrise de React, de DOM API et Node.js",
-      "Aisance avec divers Design Patterns et Data Structures",
-      "Maîtrise des opérations CRUD avec MongoDB",
-      "Bases en Go",
-      "Bases en design avec Figma"
+      "Connaissance approfondie en JS natif (ES5+).",
+      "Niveau de TypeScript avancé.",
+      "Maîtrise de React, de DOM API et Node.js.",
+      "Aisance avec divers Design Patterns et Data Structures.",
+      "Maîtrise des opérations CRUD avec MongoDB.",
+      "Bases en Go.",
+      "Bases en design avec Figma."
     ]
   },
   "soft-skills": {
     title: "Compétences personnelles",
     content: [
-      "Capable de traiter les imprévus sans assistance externe, de réfléchir \"out of the box\"",
-      "Apprécie le partage de connaissances dans les deux sens",
-      "Proactif, source constante d'idées et d'initiatives",
-      "Peut travailler individuellement ou en équipe"
+      "Capable de traiter les imprévus sans assistance externe, de réfléchir \"out of the box\".",
+      "Apprécie le partage de connaissances dans les deux sens.",
+      "Proactif, source constante d'idées et d'initiatives.",
+      "Peut travailler individuellement ou en équipe."
     ]
   },
   hobbies: {
     title: "Centres d'intérêt",
     content: [
-      "Jeux vidéo d'infiltration, de combat, de sport, de stratégie",
-      "Suivi de NBA et de football européen, culture sportive générale",
-      "Contribution à des wikis collaboratifs sous divers thèmes",
-      "Création et composition de musique à un niveau débutant",
-      "Débutant en escalade en salle"
+      "Jeux vidéo d'infiltration, de combat, de sport, de stratégie.",
+      "Fan de NBA et de football européen, culture sportive générale.",
+      "Contribution à des wikis collaboratifs sous divers thèmes.",
+      "Création et composition de musique à un niveau débutant.",
+      "Débutant en escalade en salle."
     ]
   },
   "professional-experience": {
@@ -79,18 +79,11 @@ const FR: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Développeur Full-Stack, Front-End",
       highlights: [
-        "Acquisition d'une réputation de niveau élevé en TypeScript et React.",
-        "Assurance de la montée en compétences de l'équipe en TypeScript.",
+        "Référent principal en TypeScript et React.",
+        "Suivi et participation à la montée en compétences de l'équipe en TypeScript.",
         "Responsable unique de sections d'applications cruciales.",
         "Développement d'outils accélérant la création de composants UI dans une librairie interne."
       ]
-    },
-    {
-      startDate: "Avril 2020",
-      endDate: "Mai 2021",
-      company: "",
-      position: "",
-      content: "Interruption de travail pour des raisons de santé"
     },
     {
       startDate: "Juin 2019",
@@ -98,7 +91,7 @@ const FR: TranslationFileStructure = {
       company: "NavyBits",
       position: "Développeur Web Full-Stack",
       highlights: [
-        "Intronisation de TypeScript dans la compagnie.",
+        "Introduction de TypeScript dans la compagnie.",
         "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce."
       ]
     }]
@@ -109,7 +102,7 @@ const FR: TranslationFileStructure = {
         startDate: "2022",
         endDate: "",
         company: "",
-        position: "Traducteur de la documentation officielle TypeScript",
+        position: "Traducteur de la documentation officielle TypeScript.",
         highlights: [
           "Traduction en cours de la documentation officielle TypeScript, de l'anglais vers le français."
         ]
