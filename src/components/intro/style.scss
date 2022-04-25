@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.heading {
+    background-color: $dark-blue;
+}
+
+.name {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.occupation {
+    color: $light-blue;
+}

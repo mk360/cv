@@ -1,3 +1,12 @@
+@import '../styles/variables.scss';
+
 .main-view {
     display: flex;
+}
+
+.background {
+    background-color: $light-gray;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
 }
