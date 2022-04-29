@@ -1,6 +1,6 @@
 interface ColumnProps {
   flexSize: number;
-  className?: string;
+  className: string;
   children: JSX.Element | JSX.Element[];
 }
 

@@ -1,4 +1,5 @@
 import ColumnProps from "./props";
+import './style.scss';
 
 function Column(props: ColumnProps) {
   const { flexSize, className, children } = props;

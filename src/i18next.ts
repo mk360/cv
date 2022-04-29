@@ -4,16 +4,16 @@ import FR from './translations/fr';
 
 i18next.use(initReactI18next).init({
     resources: {
-        fr: {
+        ar: {
             translation: FR,
         },
         en: {
             translation: FR,
         },
-        pl: {
+        fr: {
             translation: FR,
         },
-        ar: {
+        pl: {
             translation: FR,
         },
     },

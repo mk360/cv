@@ -2,15 +2,15 @@ import { useTranslation } from 'react-i18next';
 import Column from '../components/column';
 import Intro from '../components/intro';
 import Header from '../components/section-header';
-import styles from './cv.scss';
+import './cv.scss';
 
 function CVView() {
     const { t } = useTranslation();
     return (
-        <main className={styles.background}> {/** background */}
+        <main className='background'>
             <Intro />
-            <div style={{ display: 'flex' }}>
-                <Column flexSize={2}>
+            <div className='main-view'>
+                <Column className='side' flexSize={2}>
                     <div>
                         <Header theme='secondary'>
                             {t('contact-informations.title')}
@@ -37,7 +37,7 @@ function CVView() {
 
                     <div>
                         <Header theme='secondary'>
-                            {t('personal-informations.languages.title')}
+                            {t('languages.title')}
                         </Header>
                         <div>
                             <ul>
@@ -49,8 +49,18 @@ function CVView() {
                         </div>
                     </div>
                 </Column>
-                <Column flexSize={6}>
-                    
+                <Column className='main' flexSize={6}>
+                <div>
+                        <Header theme='primary'>
+                            {t('personal-informations.title')}
+                        </Header>
+                        <div>
+                            <ul>
+                                <li>Date de naissance : 5 juillet 1999</li>
+                                <li>Nationalités : Française, Libanaise</li>
+                            </ul>
+                        </div>
+                    </div>
                 </Column>
             </div>
         </main>
