@@ -2,12 +2,16 @@
 
 .heading {
     background-color: $dark-blue;
+    text-align: center;
+    padding-bottom: 4px;
+    border: 4px;
 }
 
 .name {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
 }
 
 .occupation {
-    color: $light-blue;
+    color: $light-blue-text;
 }

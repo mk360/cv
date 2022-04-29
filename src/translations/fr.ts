@@ -47,7 +47,7 @@ const FR: TranslationFileStructure = {
       "Niveau de TypeScript avancé.",
       "Maîtrise de React, de DOM API et Node.js.",
       "Aisance avec divers Design Patterns et Data Structures.",
-      "Maîtrise des opérations CRUD avec MongoDB.",
+      "Maîtrise des opérations CRUD avec MongoDB, bases en agrégations.",
       "Bases en Go.",
       "Bases en design avec Figma."
     ]
@@ -98,7 +98,16 @@ const FR: TranslationFileStructure = {
   },
   "personal-projects": {
     title: "Projets Personnels",
-    content: [{
+    content: [
+      {
+        startDate: "2022",
+        endDate: "",
+        company: "",
+        position: "Projet full-stack : facturation pour service de livraison de nourriture",
+        highlights: [
+          "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js"
+        ]
+      },{
         startDate: "2022",
         endDate: "",
         company: "",
@@ -113,7 +122,7 @@ const FR: TranslationFileStructure = {
       company: "",
       position: "Développeur de bot Discord communautaire",
       highlights: [
-        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive, source de memes et doté de fonctionnalités sociales."
+        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive, est source de memes et doté de fonctionnalités sociales."
       ]
       }
     ]

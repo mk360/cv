@@ -4,10 +4,18 @@ import FR from './translations/fr';
 
 i18next.use(initReactI18next).init({
     resources: {
-        fr: JSON.parse(JSON.stringify(FR)),
-        en: JSON.parse(JSON.stringify(FR)),
-        pl: JSON.parse(JSON.stringify(FR)),
-        ar: JSON.parse(JSON.stringify(FR)),
+        fr: {
+            translation: FR,
+        },
+        en: {
+            translation: FR,
+        },
+        pl: {
+            translation: FR,
+        },
+        ar: {
+            translation: FR,
+        },
     },
     lng: 'fr',
 });
