@@ -1,19 +1,35 @@
-import SectionContentProps from "./props";
+import { useTranslation } from "react-i18next";
+import Experience from "../../interfaces/experience";
 
-function SectionContent(props: SectionContentProps) {
-    const { content } = props;
+type key = 'personal-projects' | 'professional-experience';
 
-    if (Array.isArray(content)) {
-        return (
+function SectionContent(props: { transKey: key }) {
+    const { transKey } = props;
+    const { t } = useTranslation();
+    const content = t(transKey, { returnObjects: true }) as {
+        content: Experience[];
+    };
+
+    return <>{content.content.map(exp => (
+        <div key={exp.company} style={{ marginBottom: 16 }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', paddingLeft: 8, paddingRight: 8, marginBottom: 8 }}>
+                <span style={{ flex: 1 }}>
+                    {exp.startDate} - {exp.endDate}
+                </span>
+                <span style={{ flex: 1, textAlign: 'center' }}>
+                    {exp.position}
+                </span>
+                <span style={{ flex: 1, textAlign: 'end'  }}>
+                {exp.company}
+                </span>
+            </div>
             <ul>
-                {content.map(item => (
-                    <li key={item}>{item}</li>
+                {exp.highlights?.map(h => (
+                    <li key={h}>{h}</li>
                 ))}
             </ul>
-        );
-    } else {
-        return <p>content</p>;
-    }
+        </div>
+    ))}</>;
 };
 
 export default SectionContent;

@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Column from '../components/column';
 import Intro from '../components/intro';
+import SectionContent from '../components/section-content';
 import Header from '../components/section-header';
 import './cv.scss';
 
@@ -10,57 +11,94 @@ function CVView() {
         <main className='background'>
             <Intro />
             <div className='main-view'>
-                <Column className='side' flexSize={2}>
-                    <div>
-                        <Header theme='secondary'>
-                            {t('contact-informations.title')}
-                        </Header>
-                        <div>
-                            <ul>
-                                <li>Adresse email : 45</li>
-                                <li>N° tél. : + 33 6 10 34</li>
-                            </ul>
-                        </div>
-                    </div>
+                <Column className='side' flexSize={3}>
+                    <Header theme='secondary'>
+                        {t('contact-informations.title')}
+                    </Header>
 
-                    <div>
-                        <Header theme='secondary'>
-                            {t('personal-informations.title')}
-                        </Header>
-                        <div>
-                            <ul>
-                                <li>Date de naissance : 5 juillet 1999</li>
-                                <li>Nationalités : Française, Libanaise</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <ul>
+                        <li><b>{t('contact-informations.phone-number.title')}</b> {t('contact-informations.phone-number.value')}</li>
 
-                    <div>
-                        <Header theme='secondary'>
-                            {t('languages.title')}
-                        </Header>
-                        <div>
-                            <ul>
-                                <li>Francuski</li>
-                                <li>Arabski</li>
-                                <li>Angielski</li>
-                                <li>Polski</li>
-                            </ul>
-                        </div>
-                    </div>
+                        <li><b>{t('contact-informations.email-address.title')}</b> {t('contact-informations.email-address.value')}</li>
+                    </ul>
+
+                    <Header theme='secondary'>
+                        {t('personal-informations.title')}
+                    </Header>
+
+                    <ul>
+                        <li>{t('personal-informations.date-of-birth.title')} {t('personal-informations.date-of-birth.value')}</li>
+                        <li>{t('personal-informations.nationality.title')} {t('personal-informations.nationality.value')}</li>
+                    </ul>
+
+                    <Header theme='secondary'>
+                        {t('languages.title')}
+                    </Header>
+                    <ul>
+                        <li>{t('languages.french')}</li>
+                        <li>{t('languages.arabic')}</li>
+                        <li>{t('languages.english')}</li>
+                        <li>{t('languages.polish')}</li>
+                    </ul>
+
+                    <Header theme='secondary'>
+                        {t('technical-skills.title')}
+                    </Header>
+                    <ul>
+                        <li>
+                            {t('technical-skills.content.0')}
+                        </li>
+                        <li>
+                            {t('technical-skills.content.1')}
+                        </li>
+                        <li>
+                            {t('technical-skills.content.2')}
+                        </li>
+                        <li>
+                            {t('technical-skills.content.3')}
+                        </li>
+                        <li>
+                            {t('technical-skills.content.4')}
+                        </li>
+                        <li>
+                            {t('technical-skills.content.5')}
+                        </li>
+                        <li>
+                            {t('technical-skills.content.6')}
+                        </li>
+                    </ul>
+
+                    <Header theme='secondary'>
+                        {t('hobbies.title')}
+                    </Header>
+                    <ul>
+                        <li>
+                            {t('hobbies.content.0')}
+                        </li>
+                        <li>
+                            {t('hobbies.content.1')}
+                        </li>
+                        <li>
+                            {t('hobbies.content.2')}
+                        </li>
+                        <li>
+                            {t('hobbies.content.3')}
+                        </li>
+                        <li>
+                            {t('hobbies.content.4')}
+                        </li>
+                    </ul>
                 </Column>
                 <Column className='main' flexSize={6}>
-                <div>
-                        <Header theme='primary'>
-                            {t('personal-informations.title')}
-                        </Header>
-                        <div>
-                            <ul>
-                                <li>Date de naissance : 5 juillet 1999</li>
-                                <li>Nationalités : Française, Libanaise</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <Header theme='primary'>
+                        {t('professional-experience.title')}
+                    </Header>
+                    <SectionContent transKey='professional-experience' />
+                    
+                    <Header theme='primary'>
+                        {t('personal-projects.title')}
+                    </Header>
+                    <SectionContent transKey='personal-projects' />
                 </Column>
             </div>
         </main>

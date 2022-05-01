@@ -8,22 +8,22 @@ const FR: TranslationFileStructure = {
   "contact-informations": {
     title: "Contact",
     "phone-number": {
-      title: "N° tél.",
+      title: "N° tél. : ",
       value: "+33 6 16 06 31 51"
     },
     "email-address": {
-      title: "Adresse e-mail",
+      title: "Adresse e-mail : ",
       value: "mohamed.kassar36@hotmail.com"
     }
   },
   "personal-informations": {
     title: "Informations personnelles",
     "date-of-birth": {
-      title: "Date de naissance",
+      title: "Date de naissance : ",
       value: "5 juillet 1999"
     },
     nationality: {
-      title: "Nationalités",
+      title: "Nationalités : ",
       value: "Française, Libanaise"
     }
   },
@@ -49,7 +49,7 @@ const FR: TranslationFileStructure = {
       "Aisance avec divers Design Patterns et Data Structures.",
       "Maîtrise des opérations CRUD avec MongoDB, bases en agrégations.",
       "Bases en Go.",
-      "Bases en design avec Figma."
+      "Bases en design UI avec Figma."
     ]
   },
   "soft-skills": {
@@ -72,7 +72,7 @@ const FR: TranslationFileStructure = {
     ]
   },
   "professional-experience": {
-    title: "Exp. Professionnelle",
+    title: "Expérience Professionnelle",
     content: [{
       startDate: "25 mai 2021",
       endDate: "",
@@ -100,15 +100,15 @@ const FR: TranslationFileStructure = {
     title: "Projets Personnels",
     content: [
       {
-        startDate: "2022",
+        startDate: "Avril 2022",
         endDate: "",
         company: "",
-        position: "Projet full-stack : facturation pour service de livraison de nourriture",
+        position: "Projet full-stack : facturation pour service de livraison",
         highlights: [
           "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js"
         ]
       },{
-        startDate: "2022",
+        startDate: "Février 2022",
         endDate: "",
         company: "",
         position: "Traducteur de la documentation officielle TypeScript.",
@@ -122,7 +122,7 @@ const FR: TranslationFileStructure = {
       company: "",
       position: "Développeur de bot Discord communautaire",
       highlights: [
-        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive, est source de memes et doté de fonctionnalités sociales."
+        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive et est source de memes et doté de fonctionnalités sociales."
       ]
       }
     ]
