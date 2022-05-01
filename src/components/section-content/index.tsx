@@ -11,8 +11,8 @@ function SectionContent(props: { transKey: key }) {
     };
 
     return <>{content.content.map(exp => (
-        <div key={exp.company} style={{ marginBottom: 16 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', paddingLeft: 8, paddingRight: 8, marginBottom: 8 }}>
+        <div key={exp.company} style={{ marginBottom: 16, paddingLeft: 8, paddingRight: 8 }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <span style={{ flex: 1 }}>
                     {exp.startDate} - {exp.endDate}
                 </span>
@@ -23,11 +23,11 @@ function SectionContent(props: { transKey: key }) {
                 {exp.company}
                 </span>
             </div>
-            <ul>
+            {exp.highlights?.length === 1 ? <p>{exp.highlights}</p>: <ul>
                 {exp.highlights?.map(h => (
                     <li key={h}>{h}</li>
                 ))}
-            </ul>
+            </ul>}
         </div>
     ))}</>;
 };

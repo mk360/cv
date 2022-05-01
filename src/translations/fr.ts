@@ -29,8 +29,8 @@ const FR: TranslationFileStructure = {
   },
   social: {
     title: "Réseaux sociaux",
-    github: "https://github.com/mk360",
-    linkedin: "",
+    github: "GitHub : ",
+    linkedin: "Profil LinkedIn",
     codingame: ""
   },
   languages: {

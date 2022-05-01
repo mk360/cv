@@ -29,6 +29,10 @@ function CVView() {
                     <ul>
                         <li>{t('personal-informations.date-of-birth.title')} {t('personal-informations.date-of-birth.value')}</li>
                         <li>{t('personal-informations.nationality.title')} {t('personal-informations.nationality.value')}</li>
+                        <li>{t('social.github')} <a href="https://github.com/mk360">mk360</a></li>
+                        <li><a href="https://www.linkedin.com/in/mohamed-kassar-1a2926160/">
+                            {t('social.linkedin')}
+                        </a></li>
                     </ul>
 
                     <Header theme='secondary'>
@@ -65,6 +69,24 @@ function CVView() {
                         </li>
                         <li>
                             {t('technical-skills.content.6')}
+                        </li>
+                    </ul>
+
+                    <Header theme='secondary'>
+                        {t('soft-skills.title')}
+                    </Header>
+                    <ul>
+                        <li>
+                            {t('soft-skills.content.0')}
+                        </li>
+                        <li>
+                            {t('soft-skills.content.1')}
+                        </li>
+                        <li>
+                            {t('soft-skills.content.2')}
+                        </li>
+                        <li>
+                            {t('soft-skills.content.3')}
                         </li>
                     </ul>
 
