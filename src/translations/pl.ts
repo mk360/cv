@@ -2,7 +2,7 @@ import TranslationFileStructure from "../interfaces/translation-file-structure";
 
 const FR: TranslationFileStructure = {
   heading: {
-    name: "Mohamed Kassar",
+    name: "Mohamed Kassarń",
     occupation: "Développeur Web Full-Stack"
   },
   "contact-informations": {
@@ -80,7 +80,7 @@ const FR: TranslationFileStructure = {
       position: "Développeur Full-Stack, Front-End",
       highlights: [
         "Référent principal en TypeScript et React.",
-        "Contributeur principal à la montée en compétences de l'équipe en TypeScript.",
+        "Suivi et participation à la montée en compétences de l'équipe en TypeScript.",
         "Responsable unique de sections d'applications cruciales.",
         "Développement d'outils accélérant la création de composants UI dans une librairie interne."
       ]
@@ -120,10 +120,9 @@ const FR: TranslationFileStructure = {
       startDate: "2017",
       endDate: "2022",
       company: "",
-      position: "Développeur de bots communautaires Discord",
+      position: "Développeur de bot Discord communautaire",
       highlights: [
-        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive, est source de memes et doté de fonctionnalités sociales.",
-        "Bot Discord séparé qui archive les discussions passées et présentes des membres de la même communauté, tout en respectant la RGPD. Possède le même stack technique."
+        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive et est source de memes et doté de fonctionnalités sociales."
       ]
       }
     ]
