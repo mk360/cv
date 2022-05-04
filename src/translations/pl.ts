@@ -1,8 +1,8 @@
 import TranslationFileStructure from "../interfaces/translation-file-structure";
 
-const FR: TranslationFileStructure = {
+const PL: TranslationFileStructure = {
   heading: {
-    name: "Mohamed Kassarń",
+    name: "Muhammad Kassar",
     occupation: "Développeur Web Full-Stack"
   },
   "contact-informations": {
@@ -34,11 +34,11 @@ const FR: TranslationFileStructure = {
     codingame: ""
   },
   languages: {
-    title: "Langues parlées",
-    french: "Français (natif)",
-    arabic: "Arabe (natif)",
-    english: "Anglais (quotidien, professionnel)",
-    polish: "Polonais (débutant)"
+    title: "Języki",
+    french: "Francuski (natywny)",
+    arabic: "Arabski (natywny)",
+    english: "Angielski (cały dzień, profesjonalny)",
+    polish: "Polski (początkujący)"
   },
   "technical-skills": {
     title: "Compétences techniques",
@@ -80,7 +80,7 @@ const FR: TranslationFileStructure = {
       position: "Développeur Full-Stack, Front-End",
       highlights: [
         "Référent principal en TypeScript et React.",
-        "Suivi et participation à la montée en compétences de l'équipe en TypeScript.",
+        "Contributeur principal à la montée en compétences de l'équipe en TypeScript.",
         "Responsable unique de sections d'applications cruciales.",
         "Développement d'outils accélérant la création de composants UI dans une librairie interne."
       ]
@@ -92,7 +92,8 @@ const FR: TranslationFileStructure = {
       position: "Développeur Web Full-Stack",
       highlights: [
         "Introduction de TypeScript dans la compagnie.",
-        "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce."
+        "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce.",
+        "Gestion efficace de projets simultanés."
       ]
     }]
   },
@@ -105,7 +106,8 @@ const FR: TranslationFileStructure = {
         company: "",
         position: "Projet full-stack : facturation pour service de livraison",
         highlights: [
-          "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js"
+          "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js",
+          "Développement de spécifications techniques pour le projet, création d'un design adapté pour l'application."
         ]
       },{
         startDate: "Février 2022",
@@ -120,13 +122,14 @@ const FR: TranslationFileStructure = {
       startDate: "2017",
       endDate: "2022",
       company: "",
-      position: "Développeur de bot Discord communautaire",
+      position: "Développeur de bots communautaires Discord",
       highlights: [
-        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive et est source de memes et doté de fonctionnalités sociales."
+        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive, est source de memes et doté de fonctionnalités sociales.",
+        "Bot Discord séparé qui archive les discussions passées et présentes des membres de la même communauté, tout en respectant la RGPD. Possède le même stack technique."
       ]
       }
     ]
   }
 };
 
-export default FR;
+export default PL;
