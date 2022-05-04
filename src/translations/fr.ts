@@ -92,7 +92,8 @@ const FR: TranslationFileStructure = {
       position: "Développeur Web Full-Stack",
       highlights: [
         "Introduction de TypeScript dans la compagnie.",
-        "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce."
+        "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce.",
+        "Gestion efficace de projets simultanés."
       ]
     }]
   },
@@ -105,7 +106,8 @@ const FR: TranslationFileStructure = {
         company: "",
         position: "Projet full-stack : facturation pour service de livraison",
         highlights: [
-          "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js"
+          "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js",
+          "Développement de spécifications techniques pour le projet, création d'un design adapté pour l'application."
         ]
       },{
         startDate: "Février 2022",

@@ -1,132 +1,135 @@
 import TranslationFileStructure from "../interfaces/translation-file-structure";
 
-const FR: TranslationFileStructure = {
+const EN: TranslationFileStructure = {
   heading: {
-    name: "Mohamed Kassarrrr",
-    occupation: "Développeur Web Full-Stack"
+    name: "Muhammad Kassar",
+    occupation: "Full-Stack Web Developer"
   },
   "contact-informations": {
     title: "Contact",
     "phone-number": {
-      title: "N° tél. : ",
+      title: "Phone Number: ",
       value: "+33 6 16 06 31 51"
     },
     "email-address": {
-      title: "Adresse e-mail : ",
+      title: "Email address: ",
       value: "mohamed.kassar36@hotmail.com"
     }
   },
   "personal-informations": {
     title: "Informations personnelles",
     "date-of-birth": {
-      title: "Date de naissance : ",
+      title: "Date of birth: ",
       value: "5 juillet 1999"
     },
     nationality: {
-      title: "Nationalités : ",
-      value: "Française, Libanaise"
+      title: "Nationalities: ",
+      value: "French, Lebanese"
     }
   },
   social: {
-    title: "Réseaux sociaux",
-    github: "GitHub : ",
-    linkedin: "Profil LinkedIn",
+    title: "Social Networks",
+    github: "GitHub: ",
+    linkedin: "LinkedIn Profile",
     codingame: ""
   },
   languages: {
-    title: "Langues parlées",
-    french: "Français (natif)",
-    arabic: "Arabe (natif)",
-    english: "Anglais (quotidien, professionnel)",
-    polish: "Polonais (débutant)"
+    title: "Languages",
+    french: "French (native)",
+    arabic: "Arabic (native)",
+    english: "English (casual, professional)",
+    polish: "Polish (beginner)"
   },
   "technical-skills": {
-    title: "Compétences techniques",
+    title: "Technical Skills",
     content: [
-      "Connaissance approfondie en JS natif (ES5+).",
-      "Niveau de TypeScript avancé.",
-      "Maîtrise de React, de DOM API et Node.js.",
-      "Aisance avec divers Design Patterns et Data Structures.",
-      "Maîtrise des opérations CRUD avec MongoDB, bases en agrégations.",
-      "Bases en Go.",
-      "Bases en design UI avec Figma."
+      "Deep understanding of native JavaScript (ES5+).",
+      "Advanced level in TypeScript.",
+      "High proficiency in React, DOM API and Node.js.",
+      "Ease of use of diverse Design Patterns and Data Structures.",
+      "Proficiency in MongoDB CRUD operations, basic skills in aggregations.",
+      "Basics in Go.",
+      "Basics in UI design with Figma."
     ]
   },
   "soft-skills": {
-    title: "Compétences personnelles",
+    title: "Soft skills",
     content: [
-      "Capable de traiter les imprévus sans assistance externe, de réfléchir \"out of the box\".",
-      "Apprécie le partage de connaissances dans les deux sens.",
-      "Proactif, source constante d'idées et d'initiatives.",
-      "Peut travailler individuellement ou en équipe."
+      "Able to deal with unexpected events without outside help, to think out of the box.",
+      "Appreciates receiving and sharing knowledge.",
+      "Proactive, constant source of initiatives and ideas.",
+      "Can work alone or in a squad."
     ]
   },
   hobbies: {
-    title: "Centres d'intérêt",
+    title: "Hobbies",
     content: [
-      "Jeux vidéo d'infiltration, de combat, de sport, de stratégie.",
-      "Fan de NBA et de football européen, culture sportive générale.",
-      "Contribution à des wikis collaboratifs sous divers thèmes.",
-      "Création et composition de musique à un niveau débutant.",
-      "Débutant en escalade en salle."
+      "Stealth, strategy, sports and fighting video games.",
+      "NBA and European Football fan, all-around sports culture.",
+      "Contributes to collaborative wikis with diverse themes.",
+      "Beginner in music composition.",
+      "Beginner in indoors climbing."
     ]
   },
   "professional-experience": {
-    title: "Expérience Professionnelle",
+    title: "Professional Experience",
     content: [{
-      startDate: "25 mai 2021",
+      startDate: "May 25th, 2021",
       endDate: "",
       company: "Jamtech / Smood",
-      position: "Développeur Full-Stack, Front-End",
+      position: "Full-Stack, Front-End Developer",
       highlights: [
-        "Référent principal en TypeScript et React.",
-        "Suivi et participation à la montée en compétences de l'équipe en TypeScript.",
-        "Responsable unique de sections d'applications cruciales.",
-        "Développement d'outils accélérant la création de composants UI dans une librairie interne."
+        "Main contributor in TypeScript and React.",
+        "Major contributor in the team's skill development in TypeScript.",
+        "Handled sections of crucial applications alone.",
+        "Developed tools that accelerated the creation of UI components in a shared library."
       ]
     },
     {
-      startDate: "Juin 2019",
-      endDate: "Avril 2020",
+      startDate: "June 2019",
+      endDate: "April 2020",
       company: "NavyBits",
-      position: "Développeur Web Full-Stack",
+      position: "Full-Stack Web Developer",
       highlights: [
-        "Introduction de TypeScript dans la compagnie.",
-        "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce."
+        "Introduced TypeScript in the company.",
+        "Created a backend module that reduced e-commerce application creation by 60%.",
+        "Efficient multitasking when handling concurrent projects."
       ]
     }]
   },
   "personal-projects": {
-    title: "Projets Personnels",
+    title: "Personal Projects",
     content: [
       {
-        startDate: "Avril 2022",
+        startDate: "April 2022",
         endDate: "",
         company: "",
-        position: "Projet full-stack : facturation pour service de livraison",
+        position: "Full-Stack project: Billing for delivery service",
         highlights: [
-          "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js"
+          "Project divided in three major parts: a Nest.js backend, to which a mobile app made with React Native / Expo is connected, as well as a web frontend with the Svelte.js framework.",
+          "Developed technical specifications for the project. Made the design for the mobile application."
         ]
       },{
-        startDate: "Février 2022",
+        startDate: "February 2022",
         endDate: "",
         company: "",
-        position: "Traducteur de la documentation officielle TypeScript.",
+        position: "TypeScript official documentation translation.",
         highlights: [
-          "Traduction en cours de la documentation officielle TypeScript, de l'anglais vers le français."
+          "Ongoing translation of TypeScript's official documentation, from English to French."
         ]
       },
       {
       startDate: "2017",
       endDate: "2022",
       company: "",
-      position: "Développeur de bot Discord communautaire",
+      position: "Community Discord Bot Developer",
       highlights: [
-        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive et est source de memes et doté de fonctionnalités sociales."
+        "Discord bot for a 40-member community. Uses MongoDB for storage, TypeScript as the language, Node.js as a runtime, all of which is hosted on an external SaaS platform. The bot is used as an interactive database, memes source and social functions.",
+        "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Presents the same tech stack, and is hosted on the same platform."
       ]
       }
     ]
   }
 };
 
-export default FR;
+export default EN;
