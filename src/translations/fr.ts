@@ -106,7 +106,7 @@ const FR: TranslationFileStructure = {
         company: "",
         position: "Projet full-stack : facturation pour service de livraison",
         highlights: [
-          "Projet divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js",
+          "Projet individuel divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js",
           "Développement de spécifications techniques pour le projet, création d'un design adapté pour l'application."
         ]
       },{
