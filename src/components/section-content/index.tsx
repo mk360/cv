@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Experience from "../../interfaces/experience";
+import './style.scss';
 
 type key = 'personal-projects' | 'professional-experience';
 
@@ -11,15 +12,15 @@ function SectionContent(props: { transKey: key }) {
     };
 
     return <>{content.content.map(exp => (
-        <div key={exp.company} style={{ marginBottom: 16, paddingLeft: 8, paddingRight: 8 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <span style={{ flex: 1 }}>
+        <div key={`${exp.startDate}-${exp.endDate}-${exp.company}`} className='content-container'>
+            <div className="job-intro">
+                <span className="flex align-center">
                     {exp.startDate} - {exp.endDate}
                 </span>
                 <span style={{ flex: 1, textAlign: 'center' }}>
                     {exp.position}
                 </span>
-                <span style={{ flex: 1, textAlign: 'end'  }}>
+                <span style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center'  }}>
                 {exp.company}
                 </span>
             </div>
