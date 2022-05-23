@@ -32,7 +32,11 @@ function CVView() {
                         <li>{t('social.github')} <a href="https://github.com/mk360">mk360</a></li>
                         <li><a href="https://www.linkedin.com/in/mohamed-kassar-1a2926160/">
                             {t('social.linkedin')}
-                        </a></li>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="https://www.codingame.com/certification/g4Vygpnhcl7ygcowBMF-FA">{t('social.codingame')}</a>
+                        </li>
                     </ul>
 
                     <Header theme='secondary'>

@@ -31,7 +31,7 @@ const FR: TranslationFileStructure = {
     title: "Réseaux sociaux",
     github: "GitHub : ",
     linkedin: "Profil LinkedIn",
-    codingame: ""
+    codingame: "Certification CodinGame"
   },
   languages: {
     title: "Langues parlées",
