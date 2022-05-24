@@ -1,17 +1,17 @@
-import { BrowserRouter, useRoutes } from 'react-router-dom';
+import { HashRouter, useRoutes } from 'react-router-dom';
 import './styles/App.scss';
 import CVView from './view/cv';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {<RoutesWrapper />}
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
 function RoutesWrapper() {
-  return useRoutes([{ path: '/cv', element: <CVView /> }, { path: '/cv/:lang', element: <CVView /> }]);
+  return useRoutes([{ path: '/', element: <CVView /> }, { path: '/:lang', element: <CVView /> }]);
 };
 
 export default App;
