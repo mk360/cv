@@ -10,6 +10,8 @@ function App() {
   );
 }
 
+console.log("deployed");
+
 function RoutesWrapper() {
   return useRoutes([{ path: '/', element: <CVView /> }, { path: '/:lang', element: <CVView /> }]);
 };
