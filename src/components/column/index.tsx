@@ -1,11 +1,11 @@
 import ColumnProps from "./props";
-import './style.scss';
+import styles from './column.module.scss';
 
 function Column(props: ColumnProps) {
   const { flexSize, className, children } = props;
 
   return (
-    <div className={`column ${className?.trim() || ''}`} style={{ flex: flexSize }}>
+    <div className={`${styles.column} ${styles[className?.trim() || '']}`} style={{ flex: flexSize }}>
       {children}
     </div>
   );

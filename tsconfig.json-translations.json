@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "outDir": "./translations-temp",
+        "target": "ES5"
+    },
+    "include": ["./src/translations"]
+}

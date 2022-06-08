@@ -1,11 +1,11 @@
 import ContainerProps from "./props";
-import './style.scss';
+import styles from './page-container.module.scss';
 
 function Container(props: ContainerProps) {
   const { children } = props;
 
   return (
-    <main className='container'>
+    <main className={styles.container}>
       {children}
     </main>
   );

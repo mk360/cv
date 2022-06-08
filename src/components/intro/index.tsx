@@ -1,13 +1,13 @@
-import { useTranslation } from 'react-i18next';
-import'./style.scss';
+import { useTranslation } from 'next-i18next';
+import styles from './intro.module.scss';
 
 function Intro() {
     const { t } = useTranslation();
 
     return (
-        <header className="heading">
-            <p className="name">{t('heading.name')}</p>
-            <p className="occupation">{t('heading.occupation')}</p>
+        <header className={styles.heading}>
+            <p className={styles.name}>{t('heading.name')}</p>
+            <p className={styles.occupation}>{t('heading.occupation')}</p>
         </header>
     );
 };

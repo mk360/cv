@@ -1,16 +1,16 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import Column from '../components/column';
 import Intro from '../components/intro';
 import SectionContent from '../components/section-content';
 import Header from '../components/section-header';
-import './cv.scss';
+import styles from './cv.module.scss';
 
 function CVView() {
     const { t } = useTranslation();
     return (
-        <main className='background'>
+        <main className={styles.background}>
             <Intro />
-            <div className='main-view'>
+            <div className={styles['main-view']}>
                 <Column className='side' flexSize={3}>
                     <Header theme='secondary'>
                         {t('contact-informations.title')}
