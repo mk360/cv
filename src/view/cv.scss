@@ -1,14 +1,15 @@
 @import '../styles/variables.scss';
 
 .main-view {
-    display: flex;
+    display: block;
+    padding: 0 20px 0 20px;
     
     ul {
         margin: 0;
     }
 
-    @media (max-width: 768px) {
-        display: block;
+    @media (min-width: 768px) {
+        display: flex;
     }
 }
 

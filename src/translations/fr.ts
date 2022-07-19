@@ -79,10 +79,11 @@ const FR: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Développeur Full-Stack, Front-End",
       highlights: [
-        "Référent principal en TypeScript et React.",
-        "Contributeur principal à la montée en compétences de l'équipe en TypeScript.",
-        "Responsable unique de sections d'applications cruciales.",
-        "Développement d'outils accélérant la création de composants UI dans une librairie interne."
+        "Communication français-anglais spontanée, parfaite maîtrise permettant des échanges bilingues faciles et pertinents.",
+        "Membre de confiance et très fiable : assignation régulière à des problématiques critiques et urgentes dans des délais stricts.",
+        "Aptitude démontrée à la transmission de savoir : référent principal en React et essentiel en TypeScript, dans une équipe de 5 membres allant de 2 à 15 ans d'expérience.",
+        "Excellente adaptabilité : contributeur majeur sur les projets nouveaux comme anciens. Connaissance étendue de la codebase.",
+        "Qualité technique et savoir-faire supérieurs, rendant possible la résolution de problèmes a priori impossibles.",
       ]
     },
     {
@@ -91,9 +92,9 @@ const FR: TranslationFileStructure = {
       company: "NavyBits",
       position: "Développeur Web Full-Stack",
       highlights: [
-        "Introduction de TypeScript dans la compagnie.",
+        "Source intarissable d'idées : introduction de TypeScript, suggestion de features, solutions techniques créatives et pertinentes.",
         "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce.",
-        "Gestion efficace de projets simultanés."
+        "Implication constante dans tous les projets, sur les aspects Back-End et Front-End associés."
       ]
     }]
   },

@@ -79,10 +79,11 @@ const EN: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Full-Stack, Front-End Developer",
       highlights: [
-        "Main contributor in TypeScript and React.",
-        "Major contributor in the team's skill development in TypeScript.",
-        "Handled sections of crucial applications alone.",
-        "Developed tools that accelerated the creation of UI components in a shared library."
+        "Spontaneous French-English communication. Perfect language mastery allowing for relevant bilingual discussions.",
+        "Trustworthiness and reliability: regular handling of critical and urgent issues within strict timeframes.",
+        "Proven teaching ability: key member and knowledge provider in TypeScript and React, in a 5-member team ranging between 2 and 15 experience years.",
+        "Excellent adaptability: major contributor in legacy and new projects, extensive codebase knowledge.",
+        "Superior technical know-how that allows for solving apparently-impossible problems."
       ]
     },
     {

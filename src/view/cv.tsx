@@ -11,7 +11,7 @@ function CVView() {
         <main className='background'>
             <Intro />
             <div className='main-view'>
-                <Column className='side' flexSize={3}>
+                <Column className='side' flexSize={1.5}>
                     <Header theme='secondary'>
                         {t('contact-informations.title')}
                     </Header>
