@@ -18,10 +18,10 @@ const FR: TranslationFileStructure = {
   },
   "personal-informations": {
     title: "Informations personnelles",
-    "date-of-birth": {
-      title: "Date de naissance : ",
-      value: "5 juillet 1999"
-    },
+    // "date-of-birth": {
+    //   title: "Date de naissance : ",
+    //   value: "5 juillet 1999"
+    // },
     nationality: {
       title: "Nationalités : ",
       value: "Française, Libanaise"

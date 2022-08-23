@@ -11,7 +11,7 @@ function CVView() {
         <main className='background'>
             <Intro />
             <div className='main-view'>
-                <Column className='side' flexSize={1.5}>
+                <Column className='side' flexSize={1.9}>
                     <Header theme='secondary'>
                         {t('contact-informations.title')}
                     </Header>
@@ -27,7 +27,7 @@ function CVView() {
                     </Header>
 
                     <ul>
-                        <li>{t('personal-informations.date-of-birth.title')} {t('personal-informations.date-of-birth.value')}</li>
+                        {/* <li>{t('personal-informations.date-of-birth.title')} {t('personal-informations.date-of-birth.value')}</li> */}
                         <li>{t('personal-informations.nationality.title')} {t('personal-informations.nationality.value')}</li>
                         <li>{t('social.github')} <a href="https://github.com/mk360">mk360</a></li>
                         <li><a href="https://www.linkedin.com/in/mohamed-kassar-1a2926160/">
@@ -86,15 +86,15 @@ function CVView() {
                         <li>
                             {t('soft-skills.content.1')}
                         </li>
-                        <li>
+                        {/* <li>
                             {t('soft-skills.content.2')}
                         </li>
                         <li>
                             {t('soft-skills.content.3')}
-                        </li>
+                        </li> */}
                     </ul>
 
-                    <Header theme='secondary'>
+                    {/* <Header theme='secondary'>
                         {t('hobbies.title')}
                     </Header>
                     <ul>
@@ -109,11 +109,11 @@ function CVView() {
                         </li>
                         <li>
                             {t('hobbies.content.3')}
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                             {t('hobbies.content.4')}
-                        </li>
-                    </ul>
+                        </li> */}
+                    {/* </ul> */}
                 </Column>
                 <Column className='main' flexSize={6}>
                     <Header theme='primary'>

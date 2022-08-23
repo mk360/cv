@@ -18,10 +18,6 @@ interface TranslationFileStructure {
     }
     "personal-informations": {
         title: string;
-        "date-of-birth": {
-            title: string;
-            value: string;
-        }
         nationality: {
             title: string;
             value: string;
@@ -48,7 +44,7 @@ interface TranslationFileStructure {
         title: string;
         content: string[];
     }
-    "hobbies": {
+    "hobbies"?: {
         title: string;
         content: string[];
     }

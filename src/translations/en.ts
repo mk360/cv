@@ -18,10 +18,6 @@ const EN: TranslationFileStructure = {
   },
   "personal-informations": {
     title: "Personal Informations",
-    "date-of-birth": {
-      title: "Date of birth: ",
-      value: "July 5th, 1999"
-    },
     nationality: {
       title: "Nationalities: ",
       value: "French, Lebanese"
@@ -55,22 +51,20 @@ const EN: TranslationFileStructure = {
   "soft-skills": {
     title: "Soft skills",
     content: [
-      "Able to deal with unexpected events without outside help, to think out of the box.",
-      "Appreciates receiving and sharing knowledge.",
-      "Proactive, constant source of initiatives and ideas.",
-      "Can work alone or in a squad."
+      "Deft at breaking down complex and high-level topics.",
+      "Constant source of initiatives and ideas."
     ]
   },
-  hobbies: {
-    title: "Hobbies",
-    content: [
-      "Stealth, strategy, sports and fighting video games.",
-      "NBA and European Football fan, all-around sports culture.",
-      "Contributes to collaborative wikis with diverse themes.",
-      "Beginner in music composition.",
-      "Beginner in indoors climbing."
-    ]
-  },
+  // hobbies: {
+  //   title: "Hobbies",
+  //   content: [
+  //     "Stealth, strategy, sports and fighting video games.",
+  //     "NBA and European Football fan, all-around sports culture.",
+  //     "Contributes to collaborative wikis with diverse themes.",
+  //     "Beginner in music composition.",
+  //     "Beginner in indoors climbing."
+  //   ]
+  // },
   "professional-experience": {
     title: "Professional Experience",
     content: [{
@@ -79,11 +73,11 @@ const EN: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Full-Stack, Front-End Developer",
       highlights: [
-        "Spontaneous French-English communication. Perfect language mastery allowing for relevant bilingual discussions.",
-        "Trustworthiness and reliability: regular handling of critical and urgent issues within strict timeframes.",
-        "Proven teaching ability: key member and knowledge provider in TypeScript and React, in a 5-member team ranging between 2 and 15 experience years.",
-        "Excellent adaptability: major contributor in legacy and new projects, extensive codebase knowledge.",
-        "Superior technical know-how that allows for solving apparently-impossible problems."
+        "Spontaneous French-English communication. Perfect language mastery resulting in relevant exchanges and improved relations.",
+        "Regular handling of critical and urgent issues within strict timeframes as short as 3 days.",
+        "Proven teaching ability: key member and knowledge provider in TypeScript and React, in a 5-member team ranging between 2 and 15 years of experience.",
+        "Extensive codebase knowledge that helps guide newcomers and speed up their tasks by 30%.",
+        "Able to, in 10 minutes, debug issues that take hours for other team members."
       ]
     },
     {
@@ -92,9 +86,9 @@ const EN: TranslationFileStructure = {
       company: "NavyBits",
       position: "Full-Stack Web Developer",
       highlights: [
-        "Introduced TypeScript in the company.",
+        "Introduced TypeScript in the company: provided the technical infrastructure (tsconfig, file system architecture) necessary to exploit the technology.",
         "Created a backend module that reduced e-commerce application creation by 60%.",
-        "Efficient multitasking when handling concurrent projects."
+        "Efficient multitasking in concurrent projects: constantly involved in 3 customer projects, with roles spanning from back-end to front-end, often handling both."
       ]
     }]
   },
@@ -107,8 +101,8 @@ const EN: TranslationFileStructure = {
         company: "",
         position: "Full-Stack project: Billing for delivery service",
         highlights: [
-          "Project divided in three major parts: a Nest.js backend, to which a mobile app made with React Native / Expo is connected, as well as a web frontend with the Svelte.js framework.",
-          "Developed technical specifications for the project. Made the design for the mobile application."
+          "High learning speed coupled with a hands-on practical approach, allowing for a quick development cycle.",
+          "Gradual adoption of complementary skills, such as UI and UX design."
         ]
       },{
         startDate: "February 2022",

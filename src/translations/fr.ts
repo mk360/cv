@@ -18,10 +18,6 @@ const FR: TranslationFileStructure = {
   },
   "personal-informations": {
     title: "Informations personnelles",
-    "date-of-birth": {
-      title: "Date de naissance : ",
-      value: "5 juillet 1999"
-    },
     nationality: {
       title: "Nationalités : ",
       value: "Française, Libanaise"
@@ -102,6 +98,15 @@ const FR: TranslationFileStructure = {
     title: "Projets Personnels",
     content: [
       {
+        startDate: "Juin 2022",
+        endDate: "",
+        company: "",
+        position: "Projet Front-End : Librairie de génération de chronologies" ,
+        highlights: [
+          ""
+        ]
+      },
+      {
         startDate: "Avril 2022",
         endDate: "",
         company: "",
@@ -110,13 +115,14 @@ const FR: TranslationFileStructure = {
           "Projet individuel divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js",
           "Développement de spécifications techniques pour le projet, création d'un design adapté pour l'application."
         ]
-      },{
-        startDate: "Février 2022",
+      },
+      {
+        startDate: "",
         endDate: "",
         company: "",
         position: "Traducteur de la documentation officielle TypeScript.",
         highlights: [
-          "Traduction en cours de la documentation officielle TypeScript, de l'anglais vers le français."
+          "Excellentes connaissances en TypeScript, permettant de traduire la documentation officielle de l'anglais vers le français (total à traduire : ~2000 lignes)."
         ]
       },
       {
