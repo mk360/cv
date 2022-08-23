@@ -88,7 +88,7 @@ const EN: TranslationFileStructure = {
       highlights: [
         "Introduced TypeScript in the company: provided the technical infrastructure (tsconfig, file system architecture) necessary to exploit the technology.",
         "Created a backend module that reduced e-commerce application creation by 60%.",
-        "Efficient multitasking in concurrent projects: constantly involved in 3 customer projects, with roles spanning from back-end to front-end, often handling both."
+        "Efficient multitasking in concurrent projects: constantly involved in 3 customer projects, with roles either on back-end or front-end development, often handling both."
       ]
     }]
   },
@@ -96,15 +96,36 @@ const EN: TranslationFileStructure = {
     title: "Personal Projects",
     content: [
       {
-        startDate: "April 2022",
+        startDate: "2017",
+        endDate: "2022",
+        company: "",
+        position: "Community Discord Bot Developer",
+        highlights: [
+          "Discord bot for a 40-member community. Uses MongoDB for storage, TypeScript as the language, Node.js as a runtime, all of which is hosted on an external SaaS platform. The bot is used as an interactive database, memes source and social functions.",
+          "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Presents the same tech stack, and is hosted on the same platform."
+        ]
+      },
+      {
+        startDate: '',
+        endDate: '',
+        company: '',
+        position: 'GitLab Instance Hosting',
+        highlights: [
+          'Learning and practicing Continuous Integration / Continuous Delivery basics.',
+          ''
+        ]
+      },
+      {
+        startDate: "",
         endDate: "",
         company: "",
         position: "Full-Stack project: Billing for delivery service",
         highlights: [
-          "High learning speed coupled with a hands-on practical approach, allowing for a quick development cycle.",
-          "Gradual adoption of complementary skills, such as UI and UX design."
+          "High learning speed coupled with a hands-on practical approach, allowing for an experience gain in the involved technologies (Nest.js, React Native, Svelte).",
+          "Gradual adoption of programming-complementary skills, such as UI and UX design."
         ]
-      },{
+      },
+      {
         startDate: "February 2022",
         endDate: "",
         company: "",
@@ -112,16 +133,6 @@ const EN: TranslationFileStructure = {
         highlights: [
           "Ongoing translation of TypeScript's official documentation, from English to French."
         ]
-      },
-      {
-      startDate: "2017",
-      endDate: "2022",
-      company: "",
-      position: "Community Discord Bot Developer",
-      highlights: [
-        "Discord bot for a 40-member community. Uses MongoDB for storage, TypeScript as the language, Node.js as a runtime, all of which is hosted on an external SaaS platform. The bot is used as an interactive database, memes source and social functions.",
-        "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Presents the same tech stack, and is hosted on the same platform."
-      ]
       }
     ]
   }
