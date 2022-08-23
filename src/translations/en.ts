@@ -73,11 +73,10 @@ const EN: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Full-Stack, Front-End Developer",
       highlights: [
-        "Spontaneous French-English communication. Perfect language mastery resulting in relevant exchanges and improved relations.",
+        "Spontaneous French-English communication. Perfect language mastery resulting in relevant exchanges and improved relations across 3 departments.",
         "Regular handling of critical and urgent issues within strict timeframes as short as 3 days.",
         "Proven teaching ability: key member and knowledge provider in TypeScript and React, in a 5-member team ranging between 2 and 15 years of experience.",
-        "Extensive codebase knowledge that helps guide newcomers and speed up their tasks by 30%.",
-        "Able to, in 10 minutes, debug issues that take hours for other team members."
+        "Extensive codebase knowledge that helps guide newcomers and speed up their tasks by 30%."
       ]
     },
     {
@@ -86,7 +85,7 @@ const EN: TranslationFileStructure = {
       company: "NavyBits",
       position: "Full-Stack Web Developer",
       highlights: [
-        "Introduced TypeScript in the company: provided the technical infrastructure (tsconfig, file system architecture) necessary to exploit the technology.",
+        "Introduced TypeScript in the company: provided the technical infrastructure (tsconfig, file system architecture) necessary to exploit the technology. This improvement resulted in a 40% development speed increase.",
         "Created a backend module that reduced e-commerce application creation by 60%.",
         "Efficient multitasking in concurrent projects: constantly involved in 3 customer projects, with roles either on back-end or front-end development, often handling both."
       ]

@@ -75,11 +75,10 @@ const FR: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Développeur Full-Stack, Front-End",
       highlights: [
-        "Communication français-anglais spontanée, parfaite maîtrise permettant des échanges bilingues faciles et pertinents.",
-        "Membre de confiance et très fiable : assignation régulière à des problématiques critiques et urgentes dans des délais stricts.",
+        "Communication français-anglais spontanée. Parfaite maîtrise permettant des échanges fluides et des rapports améliorés entre les 3 départements impliqués.",
+        "Gestion de problématiques urgentes sous des délais stricts (2-3 jours).",
         "Aptitude démontrée à la transmission de savoir : référent principal en React et essentiel en TypeScript, dans une équipe de 5 membres allant de 2 à 15 ans d'expérience.",
-        "Excellente adaptabilité : contributeur majeur sur les projets nouveaux comme anciens. Connaissance étendue de la codebase.",
-        "Qualité technique et savoir-faire supérieurs, rendant possible la résolution de problèmes a priori impossibles.",
+        "Connaissance étendue de la codebase des 7 projets qui permet de guider et accélérer le travail des nouveaux-venus."
       ]
     },
     {
@@ -88,9 +87,9 @@ const FR: TranslationFileStructure = {
       company: "NavyBits",
       position: "Développeur Web Full-Stack",
       highlights: [
-        "Source intarissable d'idées : introduction de TypeScript, suggestion de features, solutions techniques créatives et pertinentes.",
+        "Introduction de TypeScript: configuration du socle technique nécessaire à la technologie, donnant une amélioration de l'expérience développeur de 20%.",
         "Création d'un module backend qui réduit de 60% le travail de création d'applications e-commerce.",
-        "Implication constante dans tous les projets, sur les aspects Back-End et Front-End associés."
+        "Implication constante dans tous les 5 projets, sur les aspects Back-End et Front-End associés."
       ]
     }]
   },
@@ -98,22 +97,13 @@ const FR: TranslationFileStructure = {
     title: "Projets Personnels",
     content: [
       {
-        startDate: "Juin 2022",
-        endDate: "",
-        company: "",
-        position: "Projet Front-End : Librairie de génération de chronologies" ,
-        highlights: [
-          ""
-        ]
-      },
-      {
         startDate: "Avril 2022",
         endDate: "",
         company: "",
         position: "Projet full-stack : facturation pour service de livraison",
         highlights: [
-          "Projet individuel divisé en trois grandes parties : un backend en Nest.js, relié à une application mobile avec React Native / Expo, et un frontend web avec Svelte.js",
-          "Développement de spécifications techniques pour le projet, création d'un design adapté pour l'application."
+          "Apprentissage graduel de compétences complémentaires au développement, tel le design UI et UX.",
+          "Rapidité d'apprentissage et approche pratique permettant un gain d'expérience dans technologies impliquées (Nest.js, Svelte, React Native)."
         ]
       },
       {
@@ -122,7 +112,7 @@ const FR: TranslationFileStructure = {
         company: "",
         position: "Traducteur de la documentation officielle TypeScript.",
         highlights: [
-          "Excellentes connaissances en TypeScript, permettant de traduire la documentation officielle de l'anglais vers le français (total à traduire : ~2000 lignes)."
+          "Traduction en cours de la documentation officielle de l'anglais vers le français (total à traduire : ~2000 lignes)."
         ]
       },
       {
