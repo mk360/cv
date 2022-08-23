@@ -51,10 +51,8 @@ const FR: TranslationFileStructure = {
   "soft-skills": {
     title: "Compétences personnelles",
     content: [
-      "Capable de traiter les imprévus sans assistance externe, de réfléchir \"out of the box\".",
-      "Apprécie le partage de connaissances dans les deux sens.",
-      "Proactif, source constante d'idées et d'initiatives.",
-      "Peut travailler individuellement ou en équipe."
+      "Habile dans la vulgarisation et explication de sujets complexes.",
+      "Source constante d'initiatives."
     ]
   },
   hobbies: {
