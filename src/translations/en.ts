@@ -105,16 +105,16 @@ const EN: TranslationFileStructure = {
           "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Presents the same tech stack, and is hosted on the same platform."
         ]
       },
-      {
-        startDate: '',
-        endDate: '',
-        company: '',
-        position: 'GitLab Instance Hosting',
-        highlights: [
-          'Learning and practicing Continuous Integration / Continuous Delivery basics.',
-          ''
-        ]
-      },
+      // {
+      //   startDate: 'August 2022',
+      //   endDate: '',
+      //   company: '',
+      //   position: 'GitLab Instance Hosting',
+      //   highlights: [
+      //     'Learning and practicing Continuous Integration / Continuous Delivery basics.',
+      //     ''
+      //   ]
+      // },
       {
         startDate: "",
         endDate: "",
