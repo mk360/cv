@@ -68,15 +68,15 @@ const EN: TranslationFileStructure = {
   "professional-experience": {
     title: "Professional Experience",
     content: [{
-      startDate: "May 25th, 2021",
-      endDate: "",
+      startDate: "May 2021",
+      endDate: "Currently",
       company: "Jamtech / Smood",
       position: "Full-Stack, Front-End Developer",
       highlights: [
         "Spontaneous French-English communication. Perfect language mastery resulting in relevant exchanges and improved relations across 3 departments.",
-        "Regular handling of critical and urgent issues within strict timeframes as short as 3 days.",
-        "Proven teaching ability: key member and knowledge provider in TypeScript and React, in a 5-member team ranging between 2 and 15 years of experience.",
-        "Extensive codebase knowledge that helps guide newcomers and speed up their tasks by 30%."
+        "Handled critical issues within timeframes as short as 3 days.",
+        "Proved to have a great teaching ability: key member and knowledge provider in TypeScript and React, in a 5-member team ranging between 2 and 15 years of experience.",
+        "Developed an extensive codebase knowledge, helping newcomers speed up their tasks by 30%."
       ]
     },
     {
@@ -85,7 +85,7 @@ const EN: TranslationFileStructure = {
       company: "NavyBits",
       position: "Full-Stack Web Developer",
       highlights: [
-        "Introduced TypeScript in the company: provided the technical infrastructure (tsconfig, file system architecture) necessary to exploit the technology. This improvement resulted in a 40% development speed increase.",
+        "Integrated TypeScript in the company: provided the technical infrastructure necessary to exploit the technology resulting in a 40% development speed increase.",
         "Created a backend module that reduced e-commerce application creation by 60%.",
         "Efficient multitasking in concurrent projects: constantly involved in 3 customer projects, with roles either on back-end or front-end development, often handling both."
       ]
@@ -95,8 +95,8 @@ const EN: TranslationFileStructure = {
     title: "Personal Projects",
     content: [
       {
-        startDate: "2017",
-        endDate: "2022",
+        startDate: "June 2017",
+        endDate: "February 2022",
         company: "",
         position: "Community Discord Bot Developer",
         highlights: [
@@ -104,16 +104,6 @@ const EN: TranslationFileStructure = {
           "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Presents the same tech stack, and is hosted on the same platform."
         ]
       },
-      // {
-      //   startDate: 'August 2022',
-      //   endDate: '',
-      //   company: '',
-      //   position: 'GitLab Instance Hosting',
-      //   highlights: [
-      //     'Learning and practicing Continuous Integration / Continuous Delivery basics.',
-      //     ''
-      //   ]
-      // },
       {
         startDate: "",
         endDate: "",
@@ -126,7 +116,7 @@ const EN: TranslationFileStructure = {
       },
       {
         startDate: "February 2022",
-        endDate: "",
+        endDate: "Currently",
         company: "",
         position: "TypeScript official documentation translation.",
         highlights: [

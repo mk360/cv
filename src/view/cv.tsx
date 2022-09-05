@@ -30,7 +30,7 @@ function CVView() {
                         {/* <li>{t('personal-informations.date-of-birth.title')} {t('personal-informations.date-of-birth.value')}</li> */}
                         <li>{t('personal-informations.nationality.title')} {t('personal-informations.nationality.value')}</li>
                         <li>{t('social.github')} <a href="https://github.com/mk360">mk360</a></li>
-                        <li><a href="https://www.linkedin.com/in/mohamed-kassar-1a2926160/">
+                        <li><a href="https://www.linkedin.com/in/muhammad-kassar">
                             {t('social.linkedin')}
                         </a>
                         </li>
