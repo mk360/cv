@@ -72,11 +72,11 @@ const EN: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Full-Stack, Front-End Developer",
       highlights: [
-        "Spontaneous French-English communication. Perfect language mastery resulting in concrete exchanges and improved relations across 3 departments.",
-        "Explained basic programming concepts for product owners when relevant to the problem at hand.",
+        "Demonstrated spontaneous French-English communication and perfect language mastery, resulting in concrete exchanges and improved relations across 3 departments.",
+        "Explained 2 basic programming concepts for product owners when relevant to the problem at hand.",
         "Managed critical issues within timeframes as short as 3 days.",
         "Drove technical debt cleanup with 20 suggestions and guidance on how to apply said suggestions.",
-        "Guided a 5-member team ranging between 2 and 15 years of experience with advanced TypeScript and React knowledge.",
+        "Guided a team of 5 members ranging between 2 and 15 years of experience with advanced TypeScript and React knowledge.",
         "Taught 8 team and department members about JavaScript's details and quirks through friendly competitions.",
         "Developed a great codebase awareness, helping newcomers speed up tasks by 30%."
       ]
