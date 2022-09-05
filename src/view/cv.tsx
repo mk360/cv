@@ -68,12 +68,6 @@ function CVView() {
                         <li>
                             {t('technical-skills.content.4')}
                         </li>
-                        <li>
-                            {t('technical-skills.content.5')}
-                        </li>
-                        <li>
-                            {t('technical-skills.content.6')}
-                        </li>
                     </ul>
 
                     <Header theme='secondary'>
@@ -86,12 +80,6 @@ function CVView() {
                         <li>
                             {t('soft-skills.content.1')}
                         </li>
-                        {/* <li>
-                            {t('soft-skills.content.2')}
-                        </li>
-                        <li>
-                            {t('soft-skills.content.3')}
-                        </li> */}
                     </ul>
 
                     {/* <Header theme='secondary'>

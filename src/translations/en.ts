@@ -39,11 +39,10 @@ const EN: TranslationFileStructure = {
   "technical-skills": {
     title: "Technical Skills",
     content: [
-      "Deep understanding of native JavaScript (ES5+).",
-      "Advanced level in TypeScript.",
-      "High proficiency in React, DOM API and Node.js.",
-      "Ease of use of diverse Design Patterns and Data Structures.",
-      "Proficiency in MongoDB CRUD operations, basic skills in aggregations.",
+      "Native JavaScript (ES5+).",
+      "TypeScript.",
+      "React, DOM API and Node.js.",
+      "MongoDB CRUD operations and aggregations.",
       "Basics in Go.",
       "Basics in UI design with Figma."
     ]
@@ -73,10 +72,13 @@ const EN: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Full-Stack, Front-End Developer",
       highlights: [
-        "Spontaneous French-English communication. Perfect language mastery resulting in relevant exchanges and improved relations across 3 departments.",
-        "Handled critical issues within timeframes as short as 3 days.",
-        "Proved to have a great teaching ability: key member and knowledge provider in TypeScript and React, in a 5-member team ranging between 2 and 15 years of experience.",
-        "Developed an extensive codebase knowledge, helping newcomers speed up their tasks by 30%."
+        "Spontaneous French-English communication. Perfect language mastery resulting in concrete exchanges and improved relations across 3 departments.",
+        "Explained basic programming concepts for product owners when relevant to the problem at hand.",
+        "Managed critical issues within timeframes as short as 3 days.",
+        "Drove technical debt cleanup with 20 suggestions and guidance on how to apply said suggestions.",
+        "Guided a 5-member team ranging between 2 and 15 years of experience with advanced TypeScript and React knowledge.",
+        "Taught 8 team and department members about JavaScript's details and quirks through friendly competitions.",
+        "Developed a great codebase awareness, helping newcomers speed up tasks by 30%."
       ]
     },
     {
@@ -85,9 +87,9 @@ const EN: TranslationFileStructure = {
       company: "NavyBits",
       position: "Full-Stack Web Developer",
       highlights: [
-        "Integrated TypeScript in the company: provided the technical infrastructure necessary to exploit the technology resulting in a 40% development speed increase.",
+        "Integrated TypeScript in the company: implemented the technical infrastructure necessary to exploit the technology resulting in a 40% development speed increase.",
         "Created a backend module that reduced e-commerce application creation by 60%.",
-        "Efficient multitasking in concurrent projects: constantly involved in 3 customer projects, with roles either on back-end or front-end development, often handling both."
+        "Efficient multitasking in concurrent projects: facilitated 3 customer projects, with roles either on back-end or front-end development, often handling both."
       ]
     }]
   },
@@ -100,18 +102,21 @@ const EN: TranslationFileStructure = {
         company: "",
         position: "Community Discord Bot Developer",
         highlights: [
-          "Discord bot for a 40-member community. Uses MongoDB for storage, TypeScript as the language, Node.js as a runtime, all of which is hosted on an external SaaS platform. The bot is used as an interactive database, memes source and social functions.",
-          "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Presents the same tech stack, and is hosted on the same platform."
+          "Discord bot for a 20-member community, with 6 regular users.",
+          "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Uses the same platform as a host.",
+          "Created a private GitLab instance that will host these 2 bots in the future."
         ]
       },
       {
         startDate: "",
         endDate: "",
         company: "",
-        position: "Full-Stack project: Billing for delivery service",
+        position: "Front-End Project: SVG Timeline Visualizer",
         highlights: [
-          "High learning speed coupled with a hands-on practical approach, allowing for an experience gain in the involved technologies (Nest.js, React Native, Svelte).",
-          "Gradual adoption of programming-complementary skills, such as UI and UX design."
+          "Divided tasks in the 2-member team of the project, assigning 1 person to the timeline's engine, and 1 to create the visual output.",
+          "Gave insight and helped the project teammate with TypeScript issues and logical problems.",
+          "Installed 3 development tools and scripts to benefit from hot-reloading, improving development speed by 40%.",
+          "Designed the project in a modular, generic way to leverage any environment that supports TypeScript."
         ]
       },
       {
@@ -120,7 +125,8 @@ const EN: TranslationFileStructure = {
         company: "",
         position: "TypeScript official documentation translation.",
         highlights: [
-          "Ongoing translation of TypeScript's official documentation, from English to French."
+          "Ongoing translation of TypeScript's official documentation, from English to French.",
+          "Translated 1500 lines from the official handbook, with an objective of completing the handbook and clearing the rest of the pages."
         ]
       }
     ]
