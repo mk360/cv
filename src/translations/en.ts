@@ -37,33 +37,36 @@ const EN: TranslationFileStructure = {
     polish: "Polish (beginner)"
   },
   "technical-skills": {
-    title: "Technical Skills",
+    title: "Skills",
     content: [
-      "Native JavaScript (ES5+).",
-      "TypeScript.",
-      "React, DOM API and Node.js.",
-      "MongoDB CRUD operations and aggregations.",
-      "Basics in Go.",
-      "Basics in UI design with Figma."
+      "Native JavaScript (ES5+)",
+      "TypeScript",
+      "React, DOM API and Node.js",
+      "MongoDB CRUD operations and aggregations",
+      "Basics in Go",
+      "Basics in UI design with Figma"
     ]
   },
   "soft-skills": {
     title: "Soft skills",
     content: [
-      "Deft at breaking down complex and high-level topics.",
-      "Constant source of initiatives and ideas."
+      "Deft at breaking down complex and high-level topics",
+      "Constant source of initiatives and ideas"
     ]
   },
   // hobbies: {
   //   title: "Hobbies",
   //   content: [
-  //     "Stealth, strategy, sports and fighting video games.",
-  //     "NBA and European Football fan, all-around sports culture.",
-  //     "Contributes to collaborative wikis with diverse themes.",
-  //     "Beginner in music composition.",
-  //     "Beginner in indoors climbing."
+  //     "Stealth, strategy, sports and fighting video games",
+  //     "NBA and European Football fan, all-around sports culture",
+  //     "Contributes to collaborative wikis with diverse themes",
+  //     "Beginner in music composition",
+  //     "Beginner in indoors climbing"
   //   ]
   // },
+  "education": {
+    content: [{ highlights: ['Built programming experience through self-learning and open-source projects since 2013.'] }]
+  },
   "professional-experience": {
     title: "Professional Experience",
     content: [{
@@ -72,13 +75,13 @@ const EN: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Full-Stack, Front-End Developer",
       highlights: [
-        "Demonstrated spontaneous French-English communication and perfect language mastery, resulting in concrete exchanges and improved relations across 3 departments.",
-        "Explained 2 basic programming concepts for product owners when relevant to the problem at hand.",
-        "Managed critical issues within timeframes as short as 3 days.",
-        "Drove technical debt cleanup with 20 suggestions and guidance on how to apply said suggestions.",
-        "Guided a team of 5 members ranging between 2 and 15 years of experience with advanced TypeScript and React knowledge.",
-        "Taught 8 team and department members about JavaScript's details and quirks through friendly competitions.",
-        "Developed a great codebase awareness, helping newcomers speed up tasks by 30%."
+        "Demonstrated an excellent French-English communication and language fluency, resulting in concrete exchanges and improved relations across 3 departments",
+        "Explained 2 basic programming concepts for product owners when relevant to the problem at hand",
+        "Managed critical issues within timeframes as short as 3 days",
+        "Drove technical debt cleanup with 20 suggestions and guidance on how to apply said suggestions",
+        "Advised a team of 5 members ranging between 2 and 15 years of experience with advanced TypeScript and React knowledge",
+        "Taught 8 team and department members about JavaScript's details and quirks through friendly competitions",
+        "Developed a great codebase awareness, helping newcomers speed up tasks by 30%"
       ]
     },
     {
@@ -87,9 +90,9 @@ const EN: TranslationFileStructure = {
       company: "NavyBits",
       position: "Full-Stack Web Developer",
       highlights: [
-        "Integrated TypeScript in the company: implemented the technical infrastructure necessary to exploit the technology resulting in a 40% development speed increase.",
-        "Created a backend module that reduced e-commerce application creation by 60%.",
-        "Efficient multitasking in concurrent projects: facilitated 3 customer projects, with roles either on back-end or front-end development, often handling both."
+        "Integrated TypeScript in the company: implemented the technical infrastructure necessary to exploit the technology resulting in a 40% development speed increase",
+        "Created a backend module that reduced e-commerce application creation by 60%",
+        "Efficient multitasking in concurrent projects: facilitated 3 customer projects, with roles either on back-end or front-end development, often handling both"
       ]
     }]
   },
@@ -102,9 +105,9 @@ const EN: TranslationFileStructure = {
         company: "",
         position: "Community Discord Bot Developer",
         highlights: [
-          "Discord bot for a 20-member community, with 6 regular users.",
-          "Separate Discord bot that archives past and present chat of the same community's members in a GDPR-compliant fashion. Uses the same platform as a host.",
-          "Created a private GitLab instance that will host these 2 bots in the future."
+          "Introduced and evolved a Discord interactive database for a 20-member community, with 6 regular users",
+          "Launched an archival service and archived 250,000 messages in that same Discord community",
+          "Hosted a private GitLab instance that will host these 2 bots in the future"
         ]
       },
       {
@@ -113,20 +116,20 @@ const EN: TranslationFileStructure = {
         company: "",
         position: "Front-End Project: SVG Timeline Visualizer",
         highlights: [
-          "Divided tasks in the 2-member team of the project, assigning 1 person to the timeline's engine, and 1 to create the visual output.",
-          "Gave insight and helped the project teammate with TypeScript issues and logical problems.",
-          "Installed 3 development tools and scripts to benefit from hot-reloading, improving development speed by 40%.",
-          "Designed the project in a modular, generic way to leverage any environment that supports TypeScript."
+          "Divided tasks in the 2-member team of the project, assigning 1 person to the timeline's engine, and 1 to create the visual output",
+          "Gave insight and helped the project teammate with 10 TypeScript issues and logical problems",
+          "Installed 3 development tools and scripts to benefit from hot-reloading, improving development speed by 40%",
+          "Designed the project in 2 distinct classes to leverage any runtime that supports TypeScript"
         ]
       },
       {
         startDate: "February 2022",
         endDate: "Currently",
         company: "",
-        position: "TypeScript official documentation translation.",
+        position: "TypeScript official documentation translation",
         highlights: [
-          "Ongoing translation of TypeScript's official documentation, from English to French.",
-          "Translated 1500 lines from the official handbook, with an objective of completing the handbook and clearing the rest of the pages."
+          "Ongoing translation of TypeScript's official documentation, from English to French",
+          "Translated 1500 lines from the official handbook, with an objective of completing the handbook and clearing the rest of the pages"
         ]
       }
     ]

@@ -70,7 +70,7 @@ function CVView() {
                         </li>
                     </ul>
 
-                    <Header theme='secondary'>
+                    {/* <Header theme='secondary'>
                         {t('soft-skills.title')}
                     </Header>
                     <ul>
@@ -80,7 +80,7 @@ function CVView() {
                         <li>
                             {t('soft-skills.content.1')}
                         </li>
-                    </ul>
+                    </ul> */}
 
                     {/* <Header theme='secondary'>
                         {t('hobbies.title')}
@@ -108,7 +108,10 @@ function CVView() {
                         {t('professional-experience.title')}
                     </Header>
                     <SectionContent transKey='professional-experience' />
-                    
+                    <Header theme='primary'>
+                        <>Education</>
+                    </Header>
+                    <SectionContent transKey='education' />
                     <Header theme='primary'>
                         {t('personal-projects.title')}
                     </Header>

@@ -5,6 +5,7 @@ interface TranslationFileStructure {
         name: string;
         occupation: string;
     }
+    education?: { content: { highlights: string[] }[]; };
     "contact-informations": {
         title: string;
         "phone-number": {
