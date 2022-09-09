@@ -65,6 +65,9 @@ const FR: TranslationFileStructure = {
       "Débutant en escalade en salle."
     ]
   },
+  "education": {
+    content: [{ highlights: ["Appris le développement à travers un parcours auto-didacte et les projets open-source depuis 2013."] }]
+  },
   "professional-experience": {
     title: "Expérience Professionnelle",
     content: [{
@@ -73,10 +76,13 @@ const FR: TranslationFileStructure = {
       company: "Jamtech / Smood",
       position: "Développeur Full-Stack, Front-End",
       highlights: [
-        "Communication français-anglais spontanée. Parfaite maîtrise permettant des échanges fluides et des rapports améliorés entre les 3 départements impliqués.",
-        "Gestion de problématiques urgentes sous des délais stricts (2-3 jours).",
-        "Aptitude démontrée à la transmission de savoir : référent principal en React et essentiel en TypeScript, dans une équipe de 5 membres allant de 2 à 15 ans d'expérience.",
-        "Connaissance étendue de la codebase des 7 projets qui permet de guider et accélérer le travail des nouveaux-venus."
+        "Démontré une excellente maîtrise bilingue français-anglais, permettant des échanges fluides et des rapports améliorés entre les 3 départements impliqués.",
+        "Expliqué 2 concepts basiques de programmations aux product owners quand c'était nécessaire pour la tâche",
+        "Résolu 4 problèmes critiques dans des délais inférieurs à 3 jours",
+        "Mené le nettoyage de dette technique avec 20 suggestions sur sa réduction et des conseils sur comment y procéder",
+        "Conseillé une équipe de 5 membres allant de 2 à 15 ans d'expérience avec des connaissances React et TypeScript avancées",
+        "Enseigné les particularités de JavaScript à 8 membres dans l'équipe et dans d'autres équipes, à travers des compétitions",
+        "Développé une connaissance de la base de code des 7 projets engagés, permettant d'aider efficacement les nouveaux venus"
       ]
     },
     {
@@ -98,10 +104,12 @@ const FR: TranslationFileStructure = {
         startDate: "Avril 2022",
         endDate: "",
         company: "",
-        position: "Projet full-stack : facturation pour service de livraison",
+        position: "Projet front-end : chronologie d'événements en SVG",
         highlights: [
-          "Apprentissage graduel de compétences complémentaires au développement, tel le design UI et UX.",
-          "Rapidité d'apprentissage et approche pratique permettant un gain d'expérience dans technologies impliquées (Nest.js, Svelte, React Native)."
+          "Divisé les tâches de l'équipe de 2, assignant 1 personne au moteur de la chronologie et 1 pour le rendu visuel",
+          "Donné conseil et apporté des coups de main sur 10 problématiques de logique et de TypeScript",
+          "Installé 3 outils et scripts de développement pour bénéficier du hot-reloading et une vitesse de développement accrue de 40%",
+          "Conçu le projet en 2 classes distinctes pour exploiter tous les environnements qui peuvent lancer TypeScript"
         ]
       },
       {
@@ -110,7 +118,8 @@ const FR: TranslationFileStructure = {
         company: "",
         position: "Traducteur de la documentation officielle TypeScript.",
         highlights: [
-          "Traduction en cours de la documentation officielle de l'anglais vers le français (total à traduire : ~2000 lignes)."
+          "Commencé la traduction de la documentation officielle de TypeScript, de l'anglais vers le français",
+          "Traduit 1500 lignes du manuel officiel, sur un objectif de 6000 lignes ainsi que le reste des pages"
         ]
       },
       {
@@ -119,8 +128,9 @@ const FR: TranslationFileStructure = {
       company: "",
       position: "Développeur de bots communautaires Discord",
       highlights: [
-        "Bot Discord pour une communauté de 40 membres. Utilise MongoDB pour le stockage, TypeScript comme langage, Node.js comme runtime, le tout hébergé sur un service SaaS externe. Ce bot remplit des fonctions de base de données interactive, est source de memes et doté de fonctionnalités sociales.",
-        "Bot Discord séparé qui archive les discussions passées et présentes des membres de la même communauté, tout en respectant la RGPD. Possède le même stack technique."
+        "Introduit et fait évoluer une base de données interactive pour une communauté de 20 personnes dont 6 utilisateurs réguliers",
+        "Lancé un service d'archivage qui a archivé 250,000 messages de cette communauté",
+        "Hébergé une instance privée de GitLab pour accueillir ces 2 bots dans le futur"
       ]
       }
     ]
