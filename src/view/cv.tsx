@@ -29,14 +29,14 @@ function CVView() {
                     <ul>
                         {/* <li>{t('personal-informations.date-of-birth.title')} {t('personal-informations.date-of-birth.value')}</li> */}
                         <li>{t('personal-informations.nationality.title')} {t('personal-informations.nationality.value')}</li>
-                        <li>{t('social.github')} <a href="https://github.com/mk360">mk360</a></li>
+                        {/* <li>{t('social.github')} <a href="https://github.com/mk360">mk360</a></li>
                         <li><a href="https://www.linkedin.com/in/muhammad-kassar">
                             {t('social.linkedin')}
                         </a>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                             <a href="https://www.codingame.com/certification/g4Vygpnhcl7ygcowBMF-FA">{t('social.codingame')}</a>
-                        </li>
+                        </li> */}
                     </ul>
 
                     <Header theme='secondary'>
@@ -46,10 +46,10 @@ function CVView() {
                         <li>{t('languages.french')}</li>
                         <li>{t('languages.arabic')}</li>
                         <li>{t('languages.english')}</li>
-                        <li>{t('languages.polish')}</li>
+                        {/* <li>{t('languages.polish')}</li> */}
                     </ul>
 
-                    <Header theme='secondary'>
+                    {/* <Header theme='secondary'>
                         {t('technical-skills.title')}
                     </Header>
                     <ul>
@@ -68,7 +68,7 @@ function CVView() {
                         <li>
                             {t('technical-skills.content.4')}
                         </li>
-                    </ul>
+                    </ul> */}
 
                     {/* <Header theme='secondary'>
                         {t('soft-skills.title')}

@@ -17,7 +17,7 @@ function SectionContent(props: { transKey: key }) {
         <div key={`${exp.startDate}-${exp.endDate}-${exp.company}`} className='content-container'>
             <div className="job-intro">
                 <span className="flex align-center">
-                    {!!exp.startDate && `${exp.startDate} - ${exp.endDate}`}
+                    {!!exp.startDate && `${exp.startDate} ${exp.endDate && "-" + exp.endDate}`}
                 </span>
                 <span style={{ flex: 1, textAlign: 'center' }}>
                     {exp.position}
